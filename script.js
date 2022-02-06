@@ -1,7 +1,7 @@
 var myitems = document.querySelectorAll("#bots_items .itemwrap .itemblock")[0];
 var time = 250 // ms
 var randomBtn = document.getElementById("RandomSkins");
-var skinName = 'Knife';
+var skinName = 'Knife'; // БУДЕТ ИСКАТЬ ЭТОТ СКИН
 var found = setInterval(start, time);
 var count = 1;
 
